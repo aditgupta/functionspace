@@ -1,0 +1,47 @@
+body {
+	background: url(whitey.png);
+	text-align:center;
+	margin:0;
+}
+.fade {
+	opacity: 0.6;
+}
+#heading{
+	position:relative;
+	margin-top:300px;
+	font-size:90px;
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+}
+#nav {
+	position:relative;
+	padding:0px;
+	list-style:none;
+	/*width:1028px;*/
+	float:left;
+	font-size:24px;
+	margin-left:620px;
+}
+
+#nav li {
+	position:relative;
+	float:left;
+	list-style:none;
+	padding:0px;
+	margin-left:30px;
+	margin-right:40px;
+	margin-top:20px;
+}
+#maxwell{
+	position:relative;
+	margin-top:-180px;
+	margin-left:-400px;
+	z-index:-1;
+
+}
+#cauchy{
+	position:relative;
+	margin-top:0px;
+	margin-left:1050px;
+	z-index:-1;
+}
