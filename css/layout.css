@@ -6,6 +6,11 @@ body {
 .fade {
 	opacity: 0.6;
 }
+#container{
+	width:760px;
+	height:100%;
+	margin:0 auto;	
+}
 #heading{
 	position:relative;
 	margin-top:200px;
@@ -20,7 +25,7 @@ body {
 	/*width:1028px;*/
 	float:left;
 	font-size:24px;
-	margin-left:620px;
+	margin-left:50px;
 }
 
 #nav li {
@@ -35,19 +40,6 @@ body {
 	text-shadow: 0px 2px 3px #555;
 
 }
-/*#maxwell{
-	position:relative;
-	margin-top:-180px;
-	margin-left:-400px;
-	z-index:-1;
-
-}
-#cauchy{
-	position:relative;
-	margin-top:0px;
-	margin-left:1050px;
-	z-index:-1;
-}*/
 
 #email{
 	position:relative;
@@ -58,7 +50,8 @@ body {
 #follow{
 	position:relative;
 	margin-top:50px;
-	margin-left:850px;
+	margin-left:270px;
+	text-align:center;
 	padding-right:20px;	
 	font-size:20px;
 }
@@ -67,9 +60,11 @@ body {
 	padding-right:20px;
 }
 
-input.red::-webkit-input-placeholder {
-    color: rgb(100, 0, 0);
+.math{
+	font-weight:normal;
+	font-size:18px;	
 }
+
 .days{
 	font-size:20px;
 }
