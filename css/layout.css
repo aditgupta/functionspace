@@ -8,7 +8,7 @@ body {
 }
 #heading{
 	position:relative;
-	margin-top:300px;
+	margin-top:200px;
 	font-size:90px;
 	color: #222;
 	text-shadow: 0px 2px 3px #555;
@@ -30,9 +30,12 @@ body {
 	padding:0px;
 	margin-left:30px;
 	margin-right:40px;
-	margin-top:20px;
+	margin-top:0px;
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+
 }
-#maxwell{
+/*#maxwell{
 	position:relative;
 	margin-top:-180px;
 	margin-left:-400px;
@@ -44,4 +47,29 @@ body {
 	margin-top:0px;
 	margin-left:1050px;
 	z-index:-1;
+}*/
+
+#email{
+	position:relative;
+	margin-top:100px;
+	margin-left:0px;	
+}
+
+#follow{
+	position:relative;
+	margin-top:50px;
+	margin-left:850px;
+	padding-right:20px;	
+	font-size:20px;
+}
+
+.shift{
+	padding-right:20px;
+}
+
+input.red::-webkit-input-placeholder {
+    color: rgb(100, 0, 0);
+}
+.days{
+	font-size:20px;
 }
